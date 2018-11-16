@@ -19,7 +19,7 @@ yaitu : Model, View, Controller
       -> Output Ke User
 
 * Controller
-      -> Perantara antara Model dan View
+      -> Perantara antara Model dan View  
       -> Menangani aksi dari user
 
 ## Komponen Tambahan :
@@ -58,36 +58,16 @@ RewriteRule ^(.*)$ index.php?url=$1 [L] -> pindakan semua karakter yang tertulis
                                            kedalam variabel $1
 ```
 
+## Asset
+ini bisa berupa image,file css, file js dll, untuk mengakses asset mengunakan
+absolut url yaitu url yang di mulai dari titik awal aplikasi
 
+## Database Wraper
+* Agar database bisa di gunakan di class lain
+* Query menjadi lebih generic
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Flash Message
+fitur yang di gunakan untuk menampilkan pesan error, dan fitur ini mengunakan session
 
 # Catatan :
 Repositori ini Berisi catatan, dari hasil belajar mvc
