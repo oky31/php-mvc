@@ -10,15 +10,15 @@ yaitu : Model, View, Controller
 * Mudah ketika scale up
 
 ## Komponen Utama :
-* Model
-      -> Mengelola data
-      -> Tempat aturan bisnis (bisnis logic)
+* Model    
+      -> Mengelola data   
+      -> Tempat aturan bisnis (bisnis logic)  
 
-* View
-      -> Representasi Visual dari model
-      -> Output Ke User
+* View   
+      -> Representasi Visual dari model   
+      -> Output Ke User   
 
-* Controller
+* Controller  
       -> Perantara antara Model dan View  
       -> Menangani aksi dari user
 
